@@ -1,0 +1,180 @@
+[
+    {
+        "tokens": ["Directions", "from", "bakery", "to", "school"],
+        "labels": ["NONE", "NONE", "ORIGIN", "NONE", "DEST"]
+    },
+    {
+        "tokens": ["Cafe", "from", "school"],
+        "labels": ["DEST", "NONE", "ORIGIN"]
+    },
+    {
+        "tokens": ["Cafe", "to", "school"],
+        "labels": ["ORIGIN", "NONE", "DEST"]
+    },
+    {
+        "tokens": ["Directions", "to", "bank", "from", "office"],
+        "labels": ["NONE", "NONE", "DEST", "NONE", "ORIGIN"]
+    },
+    {
+        "tokens": ["Cafe","from","the","house"],
+        "labels": ["DEST","NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["Cafe","to","bus"],
+        "labels": ["ORIGIN","NONE","DEST"]
+    }
+    {
+        "tokens": ["Store", "to", "stadium"],
+        "labels": ["ORIGIN", "NONE", "DEST"]
+    },
+    {
+        "tokens": ["Office", "from", "hotel"],
+        "labels": ["DEST", "NONE", "ORIGIN"]
+    },
+    {
+        "tokens": ["Office", "to", "bakery"],
+        "labels": ["ORIGIN", "NONE", "DEST"]
+    },
+    {
+        "tokens": ["The","library","from","school"],
+        "labels": ["DEST","DEST","NONE","ORIGIN"]
+    },
+    {
+        "tokens": ["Cafe","to","the","library"],
+        "labels": ["ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["School", "from", "bank"],
+        "labels": ["DEST", "NONE", "ORIGIN"]
+    },
+    {
+        "tokens": ["directions","to","the","baseball","game","from","home"],
+        "labels": ["NONE","NONE","DEST","DEST","DEST","NONE","ORIGIN"]
+    },
+    {
+        "tokens": ["directions","from","the","mall","to","the","sandwich","shop"],
+        "labels": ["NONE","NONE","ORIGIN","ORIGIN","NONE","DEST","DEST","DEST"]
+    },
+
+    {
+        "tokens": ["Where","do","I","go","to","get","to","the","mall","if","I'm","at","the","post","office?"],
+        "labels": ["NONE","NONE","NONE","NONE","NONE","NONE","NONE","DEST","DEST","NONE","NONE","NONE","ORIGIN","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["The","mall","to","the","school"],
+        "labels": ["ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["from","the","mall","to","the","school"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["from","the","mall","to","the","school"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+
+    {
+        "tokens": ["How","do","I","get","to","the","store","from","my","house","?"],
+        "labels": ["NONE","NONE","NONE","NONE","NONE","DEST","DEST","NONE","ORIGIN","ORIGIN","NONE"]
+    },
+    {
+        "tokens": ["Directions","to","Maggie's","house"],
+        "labels": ["NONE","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["Directions","to","the","campus"],
+        "labels": ["NONE","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","school"],
+        "labels": ["NONE","ORIGIN"]
+    },
+    {
+        "tokens": ["Parking", "lot","to","the","campus"],
+        "labels": ["ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","the","Apple","Store","to","the","deli"],
+        "labels": ["NONE","ORIGIN","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","Robbie's","car","to","Ben's","car"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","the","track","to","the","park"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["from","the","campground","to","the","coffee","shop"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST","DEST"]
+    },
+
+    {
+        "tokens": ["Go","home"],
+        "labels": ["NONE","DEST"]
+    },
+    {
+        "tokens": ["Go","to","school"],
+        "labels": ["NONE","NONE","DEST"]
+    },
+    {
+        "tokens": ["To","the","farm"],
+        "labels": ["NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","the","farm"],
+        "labels": ["NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["Home","to","the","conference"],
+        "labels": ["ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["From","room","200","to","SPAC"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST"]
+    },
+    {
+        "tokens": ["from","my","bed","to","the","class"],
+        "labels": ["NONE","ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+
+    {
+        "tokens": ["to","Wiswall","Park","from","Coffee","Planet"],
+        "labels": ["NONE","DEST","DEST","NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["Get","to","the","swim","meet","from","Oak","Street"],
+        "labels": ["NONE","NONE","DEST","DEST","DEST","NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["To","the","baseball","field","from","the","softball","field"],
+        "labels": ["NONE","DEST","DEST","DEST","NONE","ORIGIN","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["Albany","from","Dresden"],
+        "labels": ["DEST","NONE","ORIGIN"]
+    },
+    {
+        "tokens": ["to","the","farmer's","market","from","the","hotel"],
+        "labels": ["NONE","DEST","DEST","DEST","NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["The","park","from","the","pond"],
+        "labels": ["DEST","DEST","NONE","ORIGIN","ORIGIN"]
+    },
+    {
+        "tokens": ["The","park","to","the","pond"],
+        "labels": ["ORIGIN","ORIGIN","NONE","DEST","DEST"]
+    },
+    {
+        "tokens": ["The","local","eatery","to","the","fast","food","chain"],
+        "labels": ["ORIGIN","ORIGIN","ORIGIN","NONE","DEST","DEST","DEST","DEST"]
+    },
+    {
+        "tokens": ["The","local","eatery","from","the","fast","food","chain"],
+        "labels": ["DEST","DEST","DEST","NONE","ORIGIN","ORIGIN","ORIGIN","ORIGIN"]
+    }
+    
+]
+ 
